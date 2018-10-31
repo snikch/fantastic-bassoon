@@ -1,0 +1,207 @@
+@import 'https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans:300';
+@font-face {
+  font-family: 'Rollerscript-Smooth';
+  src: url('/fonts/rollerscript/Rollerscript-Smooth.woff2') format('woff2'), url('/fonts/rollerscript/Rollerscript-Smooth.woff') format('woff'), url('/fonts/rollerscript/Rollerscript-Smooth.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mila';
+  src: url('/fonts/mila/31D137_2_0.woff2') format('woff2'), url('/fonts/mila/31D137_2_0.woff') format('woff'), url('/fonts/mila/31D137_2_0.ttf') format('truetype');
+}
+/* just some defaults */
+body {
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+}
+.titleT1,
+.titleT1.mila {
+  font-family: 'Mila', serif;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0px;
+  text-transform: initial;
+  font-variant: none;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+.titleT2,
+.titleT2.mila {
+  font-family: 'Mila', serif;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-transform: initial;
+  font-variant: none;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+.titleT3,
+.titleT3.mila {
+  font-family: 'Mila', serif;
+  font-size: 54px;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-transform: initial;
+  font-variant: none;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+.titleT4,
+.titleT4.mila {
+  font-family: 'Mila', serif;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-transform: initial;
+  font-variant: none;
+  -webkit-font-smoothing: initial;
+  font-weight: normal;
+}
+.titleT5,
+.titleT5.mila {
+  font-family: 'Mila', serif;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-transform: initial;
+  font-variant: none;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+.titleT6,
+.titleT6.mila {
+  font-family: 'Mila', serif;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: initial;
+  text-transform: initial;
+  font-variant: none;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+.coverDateT1,
+.coverDateT1.mila {
+  font-family: 'Mila', serif;
+  font-size: 35px;
+  line-height: 26px;
+  letter-spacing: initial;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.coverDateT2,
+.coverDateT2.mila {
+  font-family: 'Mila', serif;
+  font-size: 30px;
+  line-height: 26px;
+  letter-spacing: initial;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+.coverDateT3,
+.coverDateT3.mila {
+  font-family: 'Mila', serif;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: initial;
+  text-transform: none;
+  -webkit-font-smoothing: initial;
+}
+.coverDateT4,
+.coverDateT4.mila {
+  font-family: 'Mila', serif;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: initial;
+  text-transform: none;
+  -webkit-font-smoothing: initial;
+}
+.coverDateT5,
+.coverDateT5.mila {
+  font-family: 'Mila', serif;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: initial;
+  text-transform: none;
+  -webkit-font-smoothing: initial;
+}
+.subhead,
+.subhead.mila {
+  font-family: 'Mila', serif;
+  font-size: 33px;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-transform: initial;
+  font-variant: none;
+  -webkit-font-smoothing: antialiased;
+  font-weight: normal;
+}
+.subheadSmall,
+.subheadSmall.mila {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.subheadSmallT2,
+.subheadSmallT2.mila {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.subheadLarge,
+.subheadLarge.mila {
+  font-family: 'Mila', serif;
+  font-size: 35px;
+  line-height: 44px;
+  letter-spacing: initial;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.navigation,
+.navigation.mila {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.mila {
+  font-family: "Mila", serif;
+}
+@cover-date-t 3-line-height: 26px
+@cover-date-t3-letter-spacing: initial;
+#app-title-preview.mila {
+  font-size: 1.65em;
+  text-transform: initial;
+  letter-spacing: 0;
+  line-height: 1.1;
+}
+#app-title-preview.mila span {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.45em;
+  line-height: 1.8;
+}
+.app-layout-1 #app-title-preview.mila,
+.app-layout-7 #app-title-preview.mila {
+  font-size: 2.2em;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.3;
+}
+.app-layout-1 #app-title-preview.mila span,
+.app-layout-7 #app-title-preview.mila span {
+  font-size: 0.38em;
+  line-height: 1.4;
+}
+.app-layout-5 #app-date-preview.mila .app-date-value-stack {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.65em;
+}
+.mila-preview {
+  font-size: 22px !important;
+}

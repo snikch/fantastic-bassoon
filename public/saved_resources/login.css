@@ -1,0 +1,171 @@
+a:link, a:visited {
+    color:inherit;
+}
+span.underline, a.underline{
+    text-decoration: underline;
+}
+.content-boxed-sm{
+    width:550px;
+}
+.content-boxed-sm > .block{
+    outline: 1em solid rgba(255,255,255,0.5);
+}
+.block-login {
+    padding: 20px 70px 20px;
+}
+.block-login p{
+    font-size:14px;
+    font-weight: 300;
+}
+.block-login p.tip{
+    font-size:12px;
+}
+.block-login p a:link span{
+    text-decoration:underline;
+}
+#powerTip {
+    font-size:12px;
+    font-weight: 300;
+}
+/*colors*/
+.text-light-grey{
+    color:#aaa;
+}
+/*Form elemenrs */
+.form-material > .form-control:focus + label, .form-material.floating.open > label {
+    font-size: 10px;
+    color:#aaa;
+    font-weight:300;
+}
+.form-control {
+    font-size: 18px;
+    font-weight:300;
+}
+.form-control.tiny{
+    font-size: 12px;
+}
+.form-material.floating > label {
+    font-weight:300;
+    font-size: 14px;
+    color:#aaa;
+}
+.form-instructions{
+    color:#aaa;
+}
+select.form-control{
+   -webkit-appearance: caret;
+   -webkit-appearance: none;
+       -webkit-border-radius: 0px;
+   background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#aaa' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+       background-position: 100% 50%;
+       background-repeat: no-repeat;
+}
+.css-checkbox,  .css-checkbox a:link, .css-checkbox a:visited{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color:#aaa;
+    font-weight:300;
+}
+.css-checkbox a:hover{
+    color:#444;
+}
+.css-checkbox a {
+    text-decoration: underline;
+}
+.btn-primary, a.btn-primary {
+    color: #fff;
+    background-color: #444444;
+    border-color: #444444;
+}
+.btn-primary:active, .btn-primary:focus {
+    color: #fff;
+    background-color: #666;
+    border-color: #666;
+}
+.btn-primary:hover {
+    color: #444;
+    background-color: #fff;
+    border-color: #444444;
+}
+.btn-primary.btn-light{
+    color: #ccc;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-primary.btn-light:hover{
+    color: #fff;
+    background-color: #444444;
+    border-color: #444444;
+}
+.btn {
+    font-family: 'Raleway', sans-serif;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    border-radius: 0px;
+    -webkit-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+    padding: 10px 20px;
+    font-weight:300;
+    -webkit-font-smoothing: initial;
+    line-height:1;
+}
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.btn-tiny {
+    padding: 8px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    min-width: initial;
+    text-transform:inital;
+    letter-spacing:0;
+    font-family: inherit;
+    font-weight:600;
+}
+.input-group-btn{
+    background-color: #f5f5f5;
+    border-color: #e6e6e6;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #ccc;
+  border-color: #ccc;
+  color:white;
+}
+
+.parsley-errors-list {
+    margin: 10px 0 3px;
+}
+.parsley-errors-list li {
+    color:#CD3333;
+}
+input.parsley-success, select.parsley-success, textarea.parsley-success {
+    color:inherit;
+}
+.form-material > .form-control:focus ~ label {
+    transform: translateY(-24px);
+}
+/*errors*/
+.errors{
+     color: #CD3333;
+     font-weight:300;
+}

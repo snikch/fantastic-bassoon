@@ -1,0 +1,319 @@
+#block-preview{
+    width:239px;
+    height:426px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    margin:0 auto;
+    position:relative;
+    -webkit-box-shadow: 1px 2px 8px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 2px 8px 1px rgba(0,0,0,0.3);
+    box-shadow: 1px 2px 8px 1px rgba(0,0,0,0.3);
+    font-size:14px;
+    /*
+    Change here to scale the preview
+    width:120px;
+    height:213px;
+    font-size:7px;*/
+}
+#block-preview .app-footer{
+    width:100%;
+    height:6%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+#block-preview .app-footer img{
+    height:25%;
+    vertical-align: top;
+    margin-top: 3.5%;
+}
+.col-preview{
+    min-width:240px;
+}
+.app-title{
+    text-align:center;
+    padding-top: 6%;
+    padding-left:7%;
+    padding-right:7%;
+    /*overflow-wrap: break-word;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;*/
+}
+.app-title div span{
+    display: block;
+}
+.app-title-top{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    min-height:13%;
+}
+#app-title{
+    -webkit-font-smoothing: antialiased;
+}
+    
+/*FORM*/
+.form-group {
+    margin-bottom: 15px;
+}
+.form-material > .form-control:focus + label, .form-material.floating.open > label {
+    font-size: 10px;
+    color:#aaa;
+    font-weight:300;
+    -webkit-transform: translateY(-19px);
+    -ms-transform: translateY(-19px);
+    transform: translateY(-19px);
+}
+.form-control {
+    font-size: 18px;
+    font-weight:300;
+    color: #646464;
+    height: 30px;
+}    
+.text-white .form-control {
+    color: #ffffff;
+    display:inline-block;
+}
+.form-control.tiny{
+    font-size: 12px;
+}
+.form-material.floating > label {
+    font-weight:300;
+    font-size: 14px;
+    color:#aaa;
+}
+.form-instructions{
+    color:#aaa;
+}
+select.form-control{
+   -webkit-appearance: caret;
+   -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+   background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#aaa' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+       background-position: 100% 50%;
+       background-repeat: no-repeat;
+}
+.form-material > .form-control:focus {
+    background-color: transparent;
+    -webkit-box-shadow: 0 2px 0 #646464;
+    box-shadow: 0 2px 0 #646464;
+}
+.form-material select[multiple], .form-material select[size] {
+    height: 30px;
+    line-height:1;
+}
+body.index #app-title{
+    padding-left:0;
+}
+body.index #title-errors{
+    color:red;
+    margin: 0.5em 0 0 0;
+    font-size: 11px;
+}
+.font-change .selectize-input {
+    background: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    -webkit-font-smoothing:antialiased;
+    padding-left:0;
+}
+.font-change  .selectize-control.single .selectize-input:after {
+    border-color: #ccc transparent transparent transparent;
+    right: 12px;
+}
+.font-change .selectize-control{
+    min-width: 120px;
+}
+.font-change .selectize-control.single .selectize-input:after{
+    content: none;
+}
+.font-change .selectize-control.single .selectize-input{
+    background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#aaa' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+   background-position: 100% 5px;
+    background-repeat: no-repeat;
+}
+.font-change .selectize-control.single .selectize-input.focus {
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    border-color:white;
+}
+.font-change .selectize-control.single .selectize-input.focus div{
+    color:#ffffff;
+}
+.parsley-errors-list {
+    margin: 10px 0 3px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 0.9em;
+    opacity: 0;
+    transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+.parsley-errors-list.filled {
+    opacity: 1;
+}
+.parsley-errors-list li {
+    color: #CD3333;
+}
+/* Dark grey btn */
+.btn.appy-btn {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-radius: 0px;
+        -webkit-transition: all 0.15s ease-out;
+        transition: all 0.15s ease-out;
+        padding: 10px 20px;
+        min-width: 185px;
+        font-weight: 300;
+}
+.btn-primary.appy-btn {
+    color: #fff;
+    background-color: #444444;
+    border-color: #444444;
+}
+.btn-primary.appy-btn:focus, .btn-primary.appy-btn.focus, .btn-primary.appy-btn:hover {
+    color: #444;
+    background-color: #fff;
+    border-color: #444444;
+}
+/* layout specific overrides */
+.app-layout-1 .app-title {
+    text-align: left;
+    height:40%;
+    position: relative;
+    top:15%;
+    padding-left:8%;
+    padding-right:8%;
+    padding-top: 0;
+}
+.app-layout-1 .app-title>div{
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    /*-webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    -moz-hyphens: manual;
+    hyphens: manual;*/
+}
+.app-layout-1 .app-title div span{
+    display: block;
+}
+.app-layout-2 .app-profilephoto-bg {
+    position: relative;
+    width: 81%;
+    margin:auto;
+}
+.app-layout-2 .app-profilephoto-bg:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.app-layout-2 .app-profilephoto {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    background-size: cover;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+.app-layout-4 .app-profilephoto {
+    position: relative;
+    top: 11px;
+}
+.app-layout-4 .app-profilephoto-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+    border-radius: 50%;
+}
+.app-layout-4 .app-profilephoto-bg:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.app-layout-4 .app-profilephoto {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    background-size: cover;
+    margin-top: 9%;
+    margin-left: 15%;
+    border-radius: 50%;
+}
+.app-layout-5 .app-date-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    text-align: center;
+}
+.app-layout-5 .app-date-box:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.app-layout-5 .app-date-box.circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.app-layout-5 #app-date-preview{
+    line-height:0.8;
+}
+.app-layout-7 .app-title {
+    text-align: center;
+    height:95%;
+    position: relative;
+    padding-left:13.5%;
+    padding-right:13.5%;
+    padding-top: 0;
+}
+.app-layout-7 .app-title>div{
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.app-layout- .app-title div span{
+    display: block;
+}
+#ourapp .app-layout-5 #app-date-preview{
+    line-height:1.3;
+}
+.app-layout-3 .app-title, .app-layout-4 .app-title, .app-layout-5 .app-title{
+    padding-top:8%;
+}
+.app-title-custom {
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+input#app-title{
+    border-radius: 0;
+    border: 0;
+    -webkit-box-shadow: 0 1px 0 #e6e6e6;
+    box-shadow: 0 1px 0 #e6e6e6;
+    width: 100%;
+    line-height:1;
+    height:40px;
+}

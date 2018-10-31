@@ -1,0 +1,2 @@
+export const REGISTRY_CHANGE = 'REGISTRY_CHANGE';
+export type REGISTRY_CHANGE = typeof REGISTRY_CHANGE;
