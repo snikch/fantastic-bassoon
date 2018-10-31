@@ -4,6 +4,7 @@ import { Dispatch } from 'redux';
 import { RegistryAction, registryChange } from '../../redux/registry/items/actions';
 import { RootState } from '../../redux/root-reducer';
 import Cart from './cart';
+import Floater from './floater';
 
 interface Props {
   doQuantityChange(index: number, amount: number): void;
@@ -42,15 +43,12 @@ const Registry: React.SFC<RootState & Props> = ({ registry: { items }, doQuantit
             <a href="#" onClick={didClickAddFn(i)} className="button button--add">
               Add
             </a>
-            {/* {quantity > 0 && (
-              <a href="#" onClick={didClickRemoveFn(i)} className="button button--remove">
-                Remove
-              </a>
-            )} */}
+            {quantity > 0 && `${quantity} selected`}
           </article>
         ))}
       </section>
       <Cart />
+      <Floater />
     </React.Fragment>
   );
 };

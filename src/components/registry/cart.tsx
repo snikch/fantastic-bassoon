@@ -25,6 +25,7 @@ const Cart: React.SFC<RootState & Props> = ({ registry: { items }, doQuantityCha
     doQuantityChange(index, -1);
   };
   const total = items.reduce((accum: number, { quantity, price }) => (accum += quantity * price), 0);
+  const totalItems = items.reduce((accum: number, { quantity, price }) => (accum += quantity), 0);
   if (total <= 0) {
     return null;
   }
@@ -52,7 +53,7 @@ const Cart: React.SFC<RootState & Props> = ({ registry: { items }, doQuantityCha
   // };
   // const filteredItems = items.filter(item => item.quantity > 0);
   return (
-    <section className="selection">
+    <section className="selection" id="selection">
       <h1>Your Selection</h1>
       <table style={{ width: '100%' }}>
         <tr>
@@ -78,7 +79,8 @@ const Cart: React.SFC<RootState & Props> = ({ registry: { items }, doQuantityCha
           );
         })}
         <tr>
-          <td colSpan={2}> Total</td>
+          <td> Total</td>
+          <td>{totalItems}</td>
           <td colSpan={3}>
             ${total}
             {/* <a href="#" onClick={didClickPay}>
