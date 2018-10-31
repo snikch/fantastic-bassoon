@@ -49,9 +49,14 @@ const defaultState: ItemState = [
   },
 ];
 
+const registryItemKey = (item: RegistryItem): string => [item.image, item.name, item.price, item.unit].join('-');
+
 export const itemReducer = (state = defaultState, action: RegistryAction): ItemState => {
   switch (action.type) {
     case REGISTRY_CHANGE:
+      if (state.map(registryItemKey).join('-') !== defaultState.map(registryItemKey).join('-')) {
+        return defaultState;
+      }
       const newState = state.slice(0);
       newState[action.payload.index].quantity += action.payload.amount;
       if (newState[action.payload.index].quantity < 0) {
