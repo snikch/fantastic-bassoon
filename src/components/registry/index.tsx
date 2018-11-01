@@ -23,7 +23,7 @@ const Registry: React.SFC<RootState & Props> = ({ registry: { items }, doQuantit
       <div className="App">
         <h1>Booze Registry</h1>
         <p>
-          We love a drink as much (ok, probably more) than the next guy. If you’d like to contribute to our wedding,
+          We love a drink as much as (ok, probably more than) the next guy. If you’d like to contribute to our wedding,
           grabbing some booze from our registry would be a great way to do that! It’ll all be drunk on the day.
         </p>
         <p>Don’t forget to sort your bus tickets at the same time.</p>
