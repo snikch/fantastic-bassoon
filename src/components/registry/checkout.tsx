@@ -12,18 +12,16 @@ const Registry: React.SFC<RootState & Props> = ({ registry: { items }, doQuantit
   const total = items.reduce((accum: number, { quantity, price }) => (accum += quantity * price), 0);
   return (
     <React.Fragment>
-      <Link to="/" className="button button--add">
-        Back
-      </Link>
       <h2>Total ${total}</h2>
       <p>Thanks for your contribution. We’re truly grateful.</p>
-      <p>
-        Please make payment via online banking to <pre>03-0211-0456964-000</pre>. Sorry we couldn’t automate this part
-        of the process but we’d lose half your cash to fees.
-      </p>
+      <p>Please make payment via online banking to:</p> <pre>03-0211-0456964-000</pre>
+      <p> Sorry we couldn’t automate this part of the process but we’d lose half your cash to fees.</p>
       <p>
         If you have any questions, hit us up at <a href="mailto:sarah.hawk@gmail.com">sarah.hawk@gmail.com</a>
       </p>
+      <Link to="/" className="button button--add">
+        Back
+      </Link>
     </React.Fragment>
   );
 };
