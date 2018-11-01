@@ -43,7 +43,7 @@ const Registry: React.SFC<RootState & Props> = ({ registry: { items }, doQuantit
               <img src={`/images/${image}`} height={name === 'Bus' ? 80 : 120} title={name} />
             </div>
             <h2>{name}</h2>
-            <div style={{ fontSize: '20px' }}>
+            <div style={{ fontSize: '20px', marginBottom: '3px' }}>
               ${price}/{unit}
             </div>
             <a href="#" onClick={didClickAddFn(i)} className="button button--add">
