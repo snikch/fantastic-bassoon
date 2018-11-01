@@ -16,12 +16,13 @@ const Registry: React.SFC<RootState & Props> = ({ registry: { items }, doQuantit
         Back
       </Link>
       <h2>Total ${total}</h2>
+      <p>Thanks for your contribution. We’re truly grateful.</p>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum
+        Please make payment via online banking to <pre>03-0211-0456964-000</pre>. Sorry we couldn’t automate this part
+        of the process but we’d lose half your cash to fees.
+      </p>
+      <p>
+        If you have any questions, hit us up at <a href="mailto:sarah.hawk@gmail.com">sarah.hawk@gmail.com</a>
       </p>
     </React.Fragment>
   );

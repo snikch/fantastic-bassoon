@@ -47,6 +47,13 @@ const defaultState: ItemState = [
     quantity: 0,
     unit: 'bottle',
   },
+  {
+    image: 'bus.png',
+    name: 'Bus',
+    price: 10,
+    quantity: 0,
+    unit: 'person',
+  },
 ];
 
 const registryItemKey = (item: RegistryItem): string => [item.image, item.name, item.price, item.unit].join('-');
